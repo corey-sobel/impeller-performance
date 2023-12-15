@@ -1,16 +1,9 @@
 # impeller_performance
 
-A new Flutter project.
+Simple flutter project that demonstrates render time differences betweek skia and impeller when using flutter_svg and lottie libraries.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Toggle the value of `FLTEnableImpeller` in `Info.plist` to control which rendering engine is used.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Change the value of `SvgChoice svgChoice` in `main.dart` to toggle which svgs are rendered (the project includes a few simple ones). 
