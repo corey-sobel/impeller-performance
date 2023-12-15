@@ -78,10 +78,6 @@ class SeasonalEventScreenContent extends StatelessWidget {
     const String trollyPath = "assets/svgs/trolly.svg";
     final String leftSvg, rightSvg;
     // You can toggle this variable to see perf impact of each svg combo.
-    // testing with iPhone 15 sim showed impeller perf to be:
-    // chestBoth: TODO
-    // chestClosedOnly: TODO
-    // twemojis: TODO
     const SvgChoice svgChoice = SvgChoice.chestBoth;
     switch (svgChoice) {
       case SvgChoice.chestBoth:
